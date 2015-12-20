@@ -1,9 +1,15 @@
 <h1>Hands</h1>
 
-<ol>
-  {{#each model as |hand|}}
-    <li>
-      {{hand.id}} ({{hand.time}})
-    </li>
-  {{/each}}
-</ol>
+<div id='sidebar'>
+  <ol>
+    {{#each model as |hand|}}
+      <li>
+        {{hand.id}} ({{hand.time}})
+      </li>
+    {{/each}}
+  </ol>
+</div>
+
+<div id='main'>
+  {{outlet}}
+</div>
