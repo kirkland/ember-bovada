@@ -1,7 +1,10 @@
-# Ember-bovada
+## Running Node
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+NVM (Node Version Manager) settings are stored in .nvmrc. However, unlike Ruby Version Manager, NVM
+will not automatically switch to the correct Node version when switching in to the project
+directory. When working on this project, unless your default Node version is the same as the one
+used here, you will need to run `nvm install`, which will install (if necessary) and switch to the
+correct version of Node.
 
 ## Prerequisites
 
